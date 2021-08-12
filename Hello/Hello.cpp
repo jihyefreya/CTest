@@ -24,6 +24,6 @@ int main()
 		index++;
 	}
 
-	//getch();
+	getch();
 	return 0;	
 }

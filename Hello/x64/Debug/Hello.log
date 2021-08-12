@@ -1,0 +1,4 @@
+﻿  Hello.cpp
+C:\Users\jihye\source\repos\CTest1\Hello\Hello.cpp(14,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\jihye\source\repos\CTest1\Hello\Hello.cpp(17,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\jihye\source\repos\CTest1\Hello\Hello.cpp(27,2): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
