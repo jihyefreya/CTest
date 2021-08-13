@@ -348,6 +348,20 @@ void VoidTest()
 	VoidPrint(vp = &a, 3);
 }
 
+void StreamTest()
+{
+	char buf[1024];
+	FILE* f = fopen("C:\\Users\\jihye\\aa","r");    // 만약 파일이 존재하지 않으면 -1 반환 //r : read  w : write(overwrite) a : append
+	if (f != NULL)
+	{
+		while (1)
+		{
+			if (fgets(buf, 1024, f) == NULL) break;  // fgets = file input함수  //stdin & stdout : 이미 존재, 언제라도 사용가능
+			fputs(buf, stdout);
+		}
+	}
+	else printf("입력 파일이 존재하지 않습니다\n");
+}
 
 int main()
 {
@@ -356,6 +370,8 @@ int main()
 	//PointerTest();
 	//solution1();
 	//SwapTest();
-	sortTestNew();
+	//sortTestNew();
 	//VoidTest();
+	StreamTest();
+
 }

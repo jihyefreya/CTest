@@ -1,0 +1,4 @@
+﻿  FuncTest.cpp
+C:\Users\jihye\source\repos\CTest1\FuncTest\FuncTest.cpp(16,7): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+C:\Users\jihye\source\repos\CTest1\FuncTest\FuncTest.cpp(11,12): warning C4101: 'k' :참조되지 않은 지역 변수입니다.
+C:\Users\jihye\source\repos\CTest1\FuncTest\FuncTest.cpp(11,9): warning C4101: 'j' :참조되지 않은 지역 변수입니다.

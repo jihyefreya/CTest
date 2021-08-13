@@ -1,0 +1,9 @@
+﻿  DataType.cpp
+C:\Users\jihye\source\repos\CTest1\DataType\DataType.cpp(9,24): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\jihye\source\repos\CTest1\DataType\DataType.cpp(12,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\jihye\source\repos\CTest1\DataType\DataType.cpp(12,12): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\jihye\source\repos\CTest1\DataType\DataType.cpp(13,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\jihye\source\repos\CTest1\DataType\DataType.cpp(13,12): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\jihye\source\repos\CTest1\DataType\DataType.cpp(14,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'size_t'입니다.
+C:\Users\jihye\source\repos\CTest1\DataType\DataType.cpp(14,12): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  DataType.vcxproj -> C:\Users\jihye\source\repos\CTest1\x64\Debug\DataType.exe
